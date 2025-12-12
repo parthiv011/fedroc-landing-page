@@ -6,7 +6,7 @@ export const Logo = ({ classname }: { classname?: string }) => {
   return (
     <Link href="/" className={cn('flex items-center gap-2', classname)}>
       <LogoIcon className="h-12 w-auto text-neutral-600 dark:text-neutral-400" />
-      <span className="text-sm text-neutral-600 dark:text-neutral-400">
+      <span className="text-md font-bold text-neutral-600 dark:text-neutral-400">
         Fedroc
       </span>
     </Link>

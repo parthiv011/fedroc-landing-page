@@ -8,8 +8,8 @@ import { LandingImages } from './landing-images';
 
 export const Hero = () => {
   return (
-    <div className="pt-10 md:pt-20 lg:pt-32">
-      <Container>
+    <section className="relative overflow-hidden pt-10 md:pt-20 lg:pt-32">
+      <Container classname="md:px-8 px-4">
         <Heading role="h1">
           Insights that grow wealth. <br />
           Guardrails that keep you safe.
@@ -26,6 +26,6 @@ export const Hero = () => {
         </div>
         <LandingImages />
       </Container>
-    </div>
+    </section>
   );
 };
